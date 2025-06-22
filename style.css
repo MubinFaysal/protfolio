@@ -15,9 +15,9 @@ h1{
 
 .half-width{
     width: 40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
+    box-sizing: border-box;
 }
 .half-width img{
     width: 80%;
@@ -29,8 +29,25 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 400px;
-    padding-bottom: 150px;
+    padding-bottom: 60px;
+}
+
+.section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.experience-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.single-exprience {
+    text-align: left;
 }
 .link-button{
     text-decoration: none;
@@ -47,8 +64,7 @@ section{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
-    float: left;
-
+    box-sizing: border-box;
 }
 .down-half img{
     width: 80%;
@@ -75,7 +91,7 @@ h2{
     background-position: left;
 }
 
-#full-stact{
+.full-stack{
     border-left:7px solid;
     border-image:linear-gradient(lightSalmon,tomato);
     border-image-slice: 1;
