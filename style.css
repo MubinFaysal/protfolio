@@ -20,7 +20,7 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
 
 .top-banner{
@@ -29,5 +29,29 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 400px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: aliceblue;
+    font-weight: 700;
+
+}
+
+.down-half{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+
+}
+
+h2{
+    font-size: 50px;
+    color: orange;
 }
